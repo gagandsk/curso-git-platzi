@@ -3,6 +3,38 @@
     margin: 0;
 }
 
+header{
+    padding: 50px;
+    border: 1px solid #ffffff;
+    background-color: #2200ff;
+    color:#FFFFFF;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 1s;
+}
+
+li a:hover{
+    color: red;
+}
+
+table{
+    margin-top: 10px;
+}
+
 table, tr, td, th{
     border: 1px solid #000000;
     text-align: center;    
