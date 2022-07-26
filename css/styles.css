@@ -10,12 +10,6 @@ header{
     color:#FFFFFF;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-
 li{
     list-style: none;
     margin-left: 50px;
@@ -46,4 +40,9 @@ td, th{
 
 p{
     padding: 10px;
+}
+
+#cabecera span{
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
 }
