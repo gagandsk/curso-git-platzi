@@ -43,3 +43,7 @@ table, tr, td, th{
 td, th{
     padding: 5px;
 }
+
+p{
+    padding: 10px;
+}
