@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body{
+    width: 98%;
+    margin: auto;
+}
+
 header{
     padding: 50px;
     border: 1px solid #ffffff;
@@ -31,6 +36,7 @@ li a:hover{
 
 table{
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 table, tr, td, th{
@@ -49,4 +55,13 @@ p{
 #cabecera span{
     margin-left: 20px;
     color: rgb(0, 255, 0);
+}
+
+.footer{
+    background-color: #2200ff ;
+    color: #FFFFFF;
+    text-align: center;
+    width: 98%;
+    padding: 10px;
+    margin-top: 15px;
 }
